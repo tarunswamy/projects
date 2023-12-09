@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>get super hero images</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main main_container">
+      <div class="main under pikach">
+        <button  class="close">close</button>
+        <div class="show_power_stats"></div>
+      </div>
+      <div class="main husk">
+        <h1>Get Super Hero Images</h1>
+        <div class="divsearch">
+          <div class="search_input">
+            <input id="input" type="text" placeholder="Search" />
+          </div>
+          <button id="search" onclick="Searchimage()">search</button>
+          <button id="getrhero" onclick="heroimage()">get random hero</button>
+        </div>
+        <br />
+        <div class="image">
+          <div class="image__child container">
+            <img
+              alt="img"
+              src="https://storage.prompt-hunt.workers.dev/clg254xgd000xld083e1n2kg1_1"
+              width="500;"
+              height="500"
+            />
+          </div>
+          <div class="imagetext">ironman</div>
+        </div>
+        <div class="footer">
+          <button id="getrhero" class="getpowerstats">
+            get the power stats
+          </button>
+        </div>
+        <!-- <div class="show_power_stats"></div> -->
+      </div>
+    </div>
+    <script src="hero.js"></script>
+  </body>
+</html>

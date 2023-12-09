@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    max-width: 45%;
+    margin: 15% auto;
+    /* transform: translate(-50%, -50%); */
+}
+
+.button {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border-radius: 30px;
+}
+
+#orange {
+    background-color: #ed9162;
+}
+
+#pink {
+    background-color: #dface7;
+}
+
+#blue {
+    background-color: #95ffff;
+}
+
+#reset{
+    background-color: #79f2ae;
+}
+
+body {
+    background-color: #f0f0f0;
+}

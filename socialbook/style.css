@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: #efefef;
+}
+
+nav {
+    background-color: #0D71F6;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    width: 180px;
+    height: 50px;
+    margin-left: 5%;
+}
+
+.nav-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.nav-left img {
+    margin-right: 5%;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 50px;
+}
+
+.nav-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-right img {
+    margin-right: 5%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.nav-right input {
+    width: 300px;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 0;
+    font-size: 30px;
+}
+
+.nav-right div {
+    display: flex;
+    width: 500px;
+    background-color: aliceblue;
+    height: 45px;
+    border-radius: 50px;
+}
+
+.nav-right div img {
+    height: 25px;
+    margin-top: 11px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;  
+}
+
+.left-sidebar {
+    /* background-color: #cbdffa; */
+    flex-basis: 25%;
+    position: sticky;
+    top: 500px;
+}
+
+.right-sidebar {
+    background-color: #cbdffa;
+    flex-basis: 25%;
+    position: sticky;
+    top: 13px;
+}
+
+.mainbar {
+    background-color: #cbdffa;
+    flex-basis: 47%;
+    position: sticky;
+    top: 13px;
+}
+
+.LEFT-sidebar {
+    background-color: #cbdffa;
+    position: sticky;
+    top: 1000px;
+    height: 1900px;
+    width: 25%;
+    margin-top: 13px;
+    z-index: 1;
+}
+
+.left-sidebar li {
+    /* display: flex;
+    align-items: center;
+    gap: 9%;
+    color: white; */
+    list-style-type: none;
+}
+
+.left-sidebar li a {
+    text-decoration: none;
+    /* margin-bottom: 20px;
+    width: fit-content; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #626262;
+    font-size: 20px;
+}
+
+.left-sidebar li img {
+    width:40px;
+}
+
+.left-sidebar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.posts img {
+    border-radius: 25px;
+}
+
+.image-text {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    bottom: 55px;
+    left: 55px;
+}

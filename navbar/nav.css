@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0082e6;
+    height: 6rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+    margin-right: 3rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 3rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+}
+
+a:hover {
+  background-color: #1b9bff;
+  transition: .3s;
+}
+
+.openMenu {
+    display: none;
+    font-size: 2rem;
+    color: white;
+
+}
+
+@media only screen and (max-width: 950px) {
+    .links { 
+        display: none;
+    }
+    .openMenu {
+        display:block;
+        margin-right: 3rem;
+    }
+    
+}
+
+/* i made some chnage */
+/* i made second change */
+/* now i made change in ui but not in vs code  */
+/* i purposefully made a change in the line that i made a change in ui */
